@@ -19,7 +19,7 @@ CREATE TABLE public.pets
     name VARCHAR(45),
     type VARCHAR(45),
 	created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-	updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+	updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 )
 
 TABLESPACE pg_default;
